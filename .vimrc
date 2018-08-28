@@ -20,7 +20,8 @@ set ignorecase			"Ignore case in the words during search
 set number			"Display line numbers
 so ~/.vim/plugins.vim		"Plugin file for Vundle plugins
 "Key bindings:
-map <F2> :set norelativenumber<CR>
+map <F2> :set invnumber<CR>
+"map <F2> :set norelativenumber<CR>
 map <F3> :set relativenumber<CR>
-map <F4> :set invnumber<CR>
+"map <F4> :set invnumber<CR>
 map <F5> :set number!<CR>
