@@ -26,5 +26,8 @@ let g:signify_realtime=0
 let g:airline_section_c='%F'	"Show the full path of the current file
 let g:airline#extensions#branch#enabled=1
 "Key bindings:
-map <F2> :set norelativenumber<CR>
+map <F2> :set invnumber<CR>
+"map <F2> :set norelativenumber<CR>
 map <F3> :set relativenumber<CR>
+"map <F4> :set invnumber<CR>
+map <F5> :set number!<CR>
